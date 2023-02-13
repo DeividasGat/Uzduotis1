@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+int a,b,c;
+cout <<"Pirmas skaicius"<<endl;
+cin >> a;
+cout <<"Antras skaicius" <<endl;
+cin >>b;
+cout <<"Trecias skaicius"<<endl;
+cin>>c;
+if (a==c){
+    std::cout<<"True";
+}
+else std::cout<<"False";
+    return 0;
+}
